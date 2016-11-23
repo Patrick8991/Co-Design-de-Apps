@@ -2,7 +2,7 @@ function checkUser(){
     var elMsg = document.getElementById('feedback');
     var elUsername = document.getElementById('nome');
     if (elUsername.value.length<4){
-        elMsg.textContent = 'O nome deve ser maior!';
+       alert("O nome deve ser maior!"); 
         }
     else{
         elMsg.textContent ='';
