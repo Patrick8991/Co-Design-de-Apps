@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+		<title>Info</title>
+		<link rel="stylesheet" type="text/css" href="CSS/Info.css">
+        <script src="Js/Info.js"></script>
+        <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon.png" />
+		<link href="https://fonts.googleapis.com/css?family=Oxygen|Signika|Ubuntu" rel="stylesheet">
+	</head>
+
+	<body>
+		<h1></h1>
+		<div id="Info">
+			<h3>Coloque os dados do cliente aqui!</h3>
+               <div id="feedback"></div>
+			<ul>
+			<form id='form' action="inicial.html" >
+			  Nome:<br>
+			  <input type="text" name="Nome" id="nome" onblur="checkNome()"><br>
+			  Horário:<br>
+			  <input type="text" name="Horário" id="horario" onblur="checkHora()"><br>
+			  Placa:<br>
+			  <input type="text" name="Placa" id="placa" onblur="checkPlaca()"><br>
+			  Modelo:<br>
+			  <input type="text" name="Modelo" id="modelo" onblur="checkModelo()"><br>
+			  Cor:<br>
+			  <input type="text" name="Cor" id="cor" onblur="checkCor()"><br>
+			  Local:<br>
+			  <input type="text" name="Local" id="local" onblur="checkLocal()"><br>
+			  <input type="submit" value="Salvar" id="salvar" ></br>
+			  <input type="submit" value="Cancelar" id="cancelar" ></br>
+			</form>
+			</ul>
+		</div>
+	</body>
+</html>
