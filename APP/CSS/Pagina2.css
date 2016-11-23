@@ -12,7 +12,7 @@ body{
 	overflow: hidden;
 	text-align: center;
 	width: 700px;
-	height: 1150px;
+	height: 1700px;
 	margin: 200px auto;
 	padding: 0px 150px 110px 0px;
 }
@@ -97,4 +97,36 @@ input[type="text"]{
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+#concluir {
+	float: right;
+	width: 200px;
+	height: 130px;
+
+	margin-top: 100px; 
+	margin-right: -50px;
+	text-align: center;
+	background-color: grey;
+	border: 2px solid grey;
+	font-size: 40px;
+	font-weight: bold;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#cancelar {
+	float: left;
+	width: 200px;
+	height: 130px;
+
+	margin-top: 100px; 
+	margin-left: 90px;
+	text-align: center;
+	background-color: grey;
+	border: 2px solid grey;
+	font-size: 40px;
+	font-weight: bold;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Ubuntu', sans-serif;
 }
