@@ -23,20 +23,20 @@
 				<ul>
 				<form id='form' action="inicial.html" >
 					  Vaga:<br>
-					  <input type="text" name="Nome" id="vaga" ><br>
+					  <div class ="feedback" id="feedback_vaga"></div><br>
 					  Dono:<br>
-					  <input type="text" name="Empresa" id="dono"><br>
+					  <div class ="feedback" id="feedback_estacionamento"></div><br>
 					  Placa:<br>
-					  <input type="text" name="Estabelecimento" id="placa"><br>
+					  <div class ="feedback" id="feedback_placa"></div><br>
 					  Itens:<br>
-					  <input type="text" name="Estabelecimento" id="itens"><br>
+					  <div class ="feedback" id="feedback_itens"></div><br>
 				 </form>
 				<form id="botao" >
-			    	<input type="button" id="concluir" value="Concluir" >
+			    	<input type="button" id="concluir" value="Concluir" onClick="window.location.href='inicial.html'" onclick="salvar()" >
 				</form>
 
 				<form >
-			    	<input type="button" id="cancelar" value="Cancelar" >
+			    	<input type="button" id="cancelar" value="Cancelar" onClick="window.location.href='inicial.html'">
 				</form>
 
 				

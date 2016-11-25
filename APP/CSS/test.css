@@ -42,6 +42,8 @@ body {
 }
 
 #nome, #empresa, #estabelecimento {
+	border: 2px solid #ccc000;
+    border-radius: 15px;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
 }

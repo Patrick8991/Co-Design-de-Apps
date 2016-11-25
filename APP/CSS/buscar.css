@@ -46,13 +46,15 @@ body {
 	border-radius: 5%;
 }
 
-#vaga,#dono,#placa,#itens{
+.feedback{
 	text-align: center;
-	width: 450px;
-	border: 2px solid #ccc000;
-    border-radius: 15px;
-	margin-bottom: 20px;
-	padding: 20px 10px 20px 10px;
+	background-color: white;
+	width: 450px;	
+	height: 75px;
+	margin: 0px 100px -35px 0px;
+    border: 2px solid #B2B2B1;
+	border-radius: 15px;
+
 }
 
 input[type=text]{
