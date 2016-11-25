@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+		<title>Inventário</title>
+		<link rel="stylesheet" type="text/css" href="CSS/Inventario.css">
+        <script src="Js/Inventario.js"></script>
+        <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon.png" />
+		<link href="https://fonts.googleapis.com/css?family=Oxygen|Signika|Ubuntu" rel="stylesheet">
+	</head>
+	<body>
+		<div id="myDIV" class="inv">
+			<h2>Inventário</h2>
+			<input type="text" id="myInput" placeholder="Item...">
+			<span onclick="newElement()" class="addBtn">Adicionar</span>
+		</div>
+		<div>
+			<form >
+			    <input type="button" id="salvar" value="Salvar" >
+			</form>
+			<form >
+			    <input type="button" id="cancelar" value="Cancelar" onClick="window.location.href='Pagina2.html'"/>
+			</form>
+		</div>
+		<ul id="myUL">
+		</ul>
+	</body>
+</html>
