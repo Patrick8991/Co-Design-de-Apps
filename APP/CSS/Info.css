@@ -32,7 +32,7 @@ body {
 	text-align: center;
 }
 
-#nome, #horario, #placa, #modelo, #cor, #local {
+#dono, #horario, #placa, #modelo, #cor, #vaga {
 	border: 2px solid #ccc000;
     border-radius: 15px;
 	text-align: center;

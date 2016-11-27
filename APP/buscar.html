@@ -3,13 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Index</title>
-		<link rel="stylesheet" type="text/css" href="CSS/buscar.css">
-        <script src="Js/test.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/buscar.css"> 
         <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon.png" />
 		<link href="https://fonts.googleapis.com/css?family=Oxygen|Signika|Ubuntu" rel="stylesheet">
 	</head>
 
-	<body>
+	<body onload="done()">
 		<h1></h1>
 		<div id="comp-teorica">
 				<ul>
@@ -25,14 +24,15 @@
 					  Vaga:<br>
 					  <div class ="feedback" id="feedback_vaga"></div><br>
 					  Dono:<br>
-					  <div class ="feedback" id="feedback_estacionamento"></div><br>
+					  <div class ="feedback" id="feedback_dono"></div><br>
 					  Placa:<br>
 					  <div class ="feedback" id="feedback_placa"></div><br>
 					  Itens:<br>
 					  <div class ="feedback" id="feedback_itens"></div><br>
 				 </form>
+				 <script src="Js/buscar.js"></script>
 				<form id="botao" >
-			    	<input type="button" id="concluir" value="Concluir" onClick="window.location.href='inicial.html'" onclick="salvar()" >
+			    	<input type="button" id="concluir" value="Concluir" onClick="window.location.href='inicial.html'" onclick="del()" >
 				</form>
 
 				<form >

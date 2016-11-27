@@ -17,7 +17,7 @@
 			<ul>
 			<form id='form' action="inicial.html" >
 			  Nome:<br>
-			  <input type="text" name="Nome" id="nome" onblur="checkNome()"><br>
+			  <input type="text" name="Dono" id="dono" onblur="checkNome()"><br>
 			  Horário:<br>
 			  <input type="text" name="Horário" id="horario" onblur="checkHora()"><br>
 			  Placa:<br>
@@ -27,9 +27,9 @@
 			  Cor:<br>
 			  <input type="text" name="Cor" id="cor" onblur="checkCor()"><br>
 			  Local:<br>
-			  <input type="text" name="Local" id="local" onblur="checkLocal()"><br>
+			  <input type="text" name="vaga" id="vaga" onblur="checkLocal()"><br>
 			<form >
-			    <input type="button" id="salvar" value="Salvar" >
+			    <input type="button" id="salvar" value="Salvar" onclick="store()" >
 			</form>
 			<form >
 			    <input type="button" id="cancelar" value="Cancelar" onClick="window.location.href='Pagina2.html'"/>

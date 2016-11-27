@@ -64,6 +64,30 @@ function checkLocal(){
     }
 }
 
+
+function store(){
+     var inputDono= document.getElementById("dono");
+     localStorage.setItem("dono", inputDono.value);
+
+     var inputHorario= document.getElementById("horario");
+     localStorage.setItem("horario", inputHorario.value);
+
+     var inputPlaca= document.getElementById("placa");
+     localStorage.setItem("placa", inputPlaca.value);
+
+     var inputModelo= document.getElementById("modelo");
+     localStorage.setItem("modelo", inputModelo.value);
+
+     var inputCor= document.getElementById("cor");
+     localStorage.setItem("cor", inputCor.value);
+
+     var inputVaga= document.getElementById("vaga");
+     localStorage.setItem("vaga", inputVaga.value);
+
+    }
+
+
+
 function myFunction(x) {
     x.classList.toggle("change");
 }
