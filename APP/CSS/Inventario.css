@@ -92,6 +92,8 @@ body {
 /* Style the input */
 input {
     border: none;
+    border: 2px solid #ccc000;
+    border-radius: 15px;
     margin-bottom: 50px;
     width: 500px;
     height: 90px;
@@ -104,6 +106,8 @@ input {
 .addBtn {
     padding: 26px 10px 10px 10px;
     width: 25%;
+    border: 2px solid #ccc000;
+    border-radius: 15px;
     height: 90px;
     background: #d9d9d9;
     color: #555;
