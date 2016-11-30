@@ -41,7 +41,7 @@ body {
 	border-radius: 5%;
 }
 
-#nome, #empresa, #estabelecimento {
+#usuario, #empresa, #estabelecimento {
 	border: 2px solid #ccc000;
     border-radius: 15px;
 	text-align: center;
