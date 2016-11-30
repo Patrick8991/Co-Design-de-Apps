@@ -19,8 +19,8 @@ body {
 
 #Info h3 {
 	padding: 20px 0px 0px 0px;
-	font-size: 70px;
-	color: white;
+	font-size: 65px;
+	color: black;
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -32,16 +32,27 @@ body {
 	text-align: center;
 }
 
+#coluna4 {
+	width: 900px;
+	height: 1200px;
+	margin-top: 100px;
+	margin-right: 0px;
+	margin-left: -100px;
+	background: #EDEDED;
+	border-radius: 5%;
+}
+
 #dono, #horario, #placa, #modelo, #cor, #vaga {
 	border: 2px solid #ccc000;
     border-radius: 15px;
 	text-align: center;
+	height: 50px;
 	margin-bottom: 30px;
 	padding: 10px 100px 10px 100px;
 }
 
 input[type="text"] {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Ubuntu', sans-serif;
 }
 
